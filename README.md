@@ -20,7 +20,7 @@ We apply **Principal Component Analysis (PCA)** for dimensionality reduction and
 ---
 
 ## 📂 Project Structure
-
+```
 Tactical_Analyst/
 │
 ├── data/
@@ -34,7 +34,7 @@ Tactical_Analyst/
 ├── 04_Visualization_and_Interpretation.ipynb  # Tactical map + initial analysis
 ├── 05_Deeper_Insights_and_Visualizations.ipynb # Radars, heatmaps, violin plots
 └── README.md
-
+```
 ---
 
 ## 🧠 Methodology
@@ -59,22 +59,22 @@ This scatter plot places each team on a 2D map based on their two principal comp
 ```bash
 git clone https://github.com/your-username/Tactical-Analyst.git
 cd Tactical-Analyst
-'''
+```
 2. Create Virtual Environment (Recommended)
-
+```
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-
+```
 3. Install Dependencies
 
 Create a requirements.txt file:
-
+```
 pandas
 scikit-learn
 matplotlib
 seaborn
 lxml
-
+```
 Install with pip:
 
 pip install -r requirements.txt
