@@ -1,4 +1,5 @@
 Premier League Team Playstyle Analysis ⚽📊
+
 This project uses unsupervised machine learning to analyze team performance data from the Premier League. The goal is to move beyond simple league standings and identify distinct tactical profiles or "playstyles" of the teams. We use Principal Component Analysis (PCA) for dimensionality reduction and K-Means Clustering to group teams with similar statistical DNA.
 
 🌟 Key Features
